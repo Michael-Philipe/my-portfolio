@@ -24,13 +24,14 @@ export default function About() {
         />
       </h1>
       <p className='mt-8 text-2xl block max-w-4xl'>
-        Busco me capacitar cada vez mais, para poder gerar um impacto positivo
-        na vida de muitas pessoas. Tenho muita vontade de aprender novas
-        línguas, conhecer novos lugares e praticar fotografia como hobby. No
-        momento estou focado em desenvolver minhas habilidades como um
-        desenvolvedor Front-end e na busca de uma oportunidade que possa me
-        ajudar a aprimorar minhas skills e poder gerar mais valor para os
-        clientes.
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting, remaining
+        essentially unchanged. It was popularised in the 1960s with the release
+        Ipsum passages, and more recently with desktop publishing software like
+        Aldus PageMaker including versions of Lorem Ipsum.
       </p>
     </section>
   );
