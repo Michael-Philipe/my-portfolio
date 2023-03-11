@@ -1,4 +1,5 @@
 import './App.css';
+import Education from './components/Education';
 import Header from './components/Header';
 import ParticlesBG from './components/ParticlesBG';
 import Projects from './components/Projects';
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Projects />
       <Skills />
+      <Education />
     </div>
   );
 }

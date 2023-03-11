@@ -2,7 +2,12 @@ import About from './About';
 import ItemList from './ItemList';
 
 export default function Header() {
-  const itensNavigation = ['projetos', 'habilidades', 'educação', 'contato'];
+  const itensNavigation = [
+    'projetos',
+    'habilidades',
+    'experiências',
+    'contato',
+  ];
 
   return (
     <header className='relative'>

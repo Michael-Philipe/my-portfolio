@@ -4,12 +4,6 @@ import greenSpaceman from '/src/assets/green-spaceman.svg';
 export default function About() {
   return (
     <section className='text-white mt-32 p-6 '>
-      {/* <img
-        className='animate-bounce h-52 absolute bottom-0 right-0'
-        src={greenSpaceman}
-        alt='green spaceman'
-      /> */}
-
       <h1 className='text-5xl font-title'>
         <Typewriter
           options={{
