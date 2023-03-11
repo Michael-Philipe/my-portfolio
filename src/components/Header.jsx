@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className='relative'>
-      <nav className='bg-[#101214] bg-opacity-95 '>
+      <nav className=''>
         <div className='max-w-[80rem] h-20 mx-auto flex justify-between py-8 px-6'>
           <div className='text-white text-4xl font-title'>
             <p>Portfólio</p>
