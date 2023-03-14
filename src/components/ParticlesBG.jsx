@@ -39,7 +39,7 @@ function ParticlesBG() {
               mode: 'push',
             },
             onHover: {
-              enable: true,
+              enable: false,
               mode: 'grab',
             },
             resize: true,

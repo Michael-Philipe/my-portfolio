@@ -1,9 +1,9 @@
 import React from 'react';
 
-function CardProject({ title, tec, img }) {
+function CardProject({ title, tec, img, linkGithub }) {
   return (
     <div
-      className=' w-[400px] backdrop-blur-lg backdrop-saturate-[180%] bg-[rgba(17,25,40,0.25)] border flex flex-col items-center justify-center text-center p-[38px] rounded-xl border-solid border-[rgba(255,255,255,0.125)]
+      className=' w-[400px] backdrop-blur-lg backdrop-saturate-[180%] bg-[rgba(44,44,44,0.25)] border flex flex-col items-center justify-center text-center p-[38px] rounded-xl border-solid border-[rgba(255,255,255,0.125)]
     -webkit-backdrop-filter: blur(16px) saturate(180%)
     filter: drop-shadow(0 30px 10px rgba(0, 0, 0, 0.125))'
     >
@@ -13,14 +13,7 @@ function CardProject({ title, tec, img }) {
 
 '
         ></div>
-        <h2
-          className='my-6 text-[rgba(255,255,255,0.98)] uppercase text-[2
-            rem]
-  font-family: "Righteous", sans-serif'
-        >
-          {' '}
-          {title}
-        </h2>
+        <h2 className='my-6 text-white  uppercase text-2xl'>{title}</h2>
         <p
           className='text-white text-center text-[0.8rem] leading-[150%] tracking-[2px] uppercase
   font-family: "Lato", sans-serif'
@@ -33,14 +26,16 @@ function CardProject({ title, tec, img }) {
           className='text-xs text-[0.8rem] tracking-[2px] cursor-pointer px-6 py-3 rounded-3xl text-[rgba(0,212,255,0.9)] border transition-all duration-[0.3s] ease-[ease] border-solid border-[rgba(0,212,255,0.6)]
           background: transparent hover:text-[rgba(255,255,255,0.9)] hover:transition-all hover:duration-[0.3s] hover:ease-[ease] hover:border-[rgba(255,255,255,0.9)] hover:scale-[1.125]'
         >
-          SOBRE
+          DEMO
         </button>
         <button
           className=' text-xs bg-blue-button text-[0.8rem] tracking-[2px] cursor-pointer px-6 py-3 rounded-3xl border-[none] ml-[10px] text-[rgba(255,255,255,0.95)] font-[bold] transition-all duration-[0.3s] ease-[ease] 
   filter: drop-shadow(0) hover:transition-all hover:duration-[0.3s] hover:ease-[ease] hover:border-[rgba(255,255,255,0.9)] hover:scale-[1.125]
   filter: drop-shadow(0 10px 5px rgba(0, 0, 0, 0.125))'
         >
-          GITHUB
+          <a href={linkGithub} target='_blank'>
+            GITHUB
+          </a>
         </button>
       </div>
     </div>

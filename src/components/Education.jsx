@@ -39,7 +39,7 @@ function Education() {
   };
 
   return (
-    <SectionContainer bg=''>
+    <SectionContainer bg='bg-[#101214]'>
       <Title>
         <h2 className='text-5xl text-white'>Experiências</h2>
       </Title>

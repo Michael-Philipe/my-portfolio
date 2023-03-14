@@ -11,21 +11,8 @@ function Projects() {
       projectTitle: 'Estudio Ghibli',
       tools: 'HTML, CSS, JS',
       linkImg: ghibli,
-    },
-    {
-      projectTitle: 'Titulo do projeto',
-      tools: 'HTML, CSS, JS',
-      linkImg: '',
-    },
-    {
-      projectTitle: 'Titulo do projeto',
-      tools: 'HTML, CSS, JS',
-      linkImg: '',
-    },
-    {
-      projectTitle: 'Titulo do projeto',
-      tools: 'HTML, CSS, JS',
-      linkImg: '',
+      linkGithub: 'https://github.com/Michael-Philipe/Ghibli-movies',
+      demo: '',
     },
     {
       projectTitle: 'Titulo do projeto',
@@ -40,7 +27,7 @@ function Projects() {
   ];
 
   return (
-    <SectionContainer className='relative'>
+    <SectionContainer className='relative' bg='bg-[#101214]'>
       <Title>
         <h2 className='text-white text-5xl'>Projetos</h2>
       </Title>
@@ -51,6 +38,7 @@ function Projects() {
             title={project.projectTitle}
             tec={project.tools}
             img={project.linkImg}
+            linkGithub={project.linkGithub}
           />
         ))}
       </div>

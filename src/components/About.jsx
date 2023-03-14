@@ -4,28 +4,25 @@ import greenSpaceman from '/src/assets/green-spaceman.svg';
 export default function About() {
   return (
     <section className='text-white mt-32 p-6 '>
-      <h1 className='text-5xl font-title'>
+      <h2 className='text-5xl font-title mb-4'>
+        Olá, meu nome é <span style={{ color: '#4b55ff' }}>Michael</span>
+      </h2>
+      {/* <h2 className='text-4xl font-title'>
         <Typewriter
           options={{
-            strings: [
-              'Olá, meu nome é <span style="color: #4b55ff;">Michael</span>',
-              'Desenvolvedor FullStack',
-            ],
+            strings: ['Desenvolvedor FullStack'],
             autoStart: true,
             loop: true,
             delay: 120,
           }}
         />
-      </h1>
+      </h2> */}
       <p className='mt-8 text-2xl block max-w-4xl'>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        Ipsum passages, and more recently with desktop publishing software like
-        Aldus PageMaker including versions of Lorem Ipsum.
+        Busco me capacitar cada vez mais, para poder gerar um impacto positivo
+        na vida de muitas pessoas. No momento estou focado em desenvolver minhas
+        habilidades como um desenvolvedor Front-end e na busca de um emprego que
+        possa me ajudar a aprimorar minhas skills e poder gerar mais valor para
+        os clientes.
       </p>
     </section>
   );
